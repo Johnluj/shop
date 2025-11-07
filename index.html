@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Delight Tech | Affordable Branding</title>
+  <link rel="icon" type="image/x-icon" href="Logo.jpg">
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -104,22 +105,22 @@
         <div class="text-center" data-aos="fade-up" data-aos-delay="100">
           <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">🌱</div>
           <h4 class="text-xl font-semibold mb-2">Beginner-Friendly</h4>
-          <p class="text-gray-400 text-sm">No tech skills? No problem.<br> We walk you through everything From idea to launch. Whether you're new or experienced, we make the process simple and stress-free.</p>
+          <p class="text-gray-400 text-sm">No tech skills? No problem.<br> We walk you through everything From idea to launch. Whether you're new or experienced, we make the process simple and stress-[...] 
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="200">
           <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">⚡</div>
           <h4 class="text-xl font-semibold mb-2">Fast Delivery</h4>
-          <p class="text-gray-400 text-sm">Get your brand live in under 7 days.<br> We value your time. Once we have your brief, our streamlined process ensures your business is online quickly without delays.</p>
+          <p class="text-gray-400 text-sm">Get your brand live in under 7 days.<br> We value your time. Once we have your brief, our streamlined process ensures your business is online quickly without[...] 
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="300">
           <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">💰</div>
           <h4 class="text-xl font-semibold mb-2">Flexible Budget</h4>
-          <p class="text-gray-400 text-sm">Pay what you can — no fixed prices.<br>We believe every business deserves a great online presence. Tell us your budget, and we’ll build something valuable within it. No fixed pricing. No hidden charges.</p>
+          <p class="text-gray-400 text-sm">Pay what you can — no fixed prices.<br>We believe every business deserves a great online presence. Tell us your budget, and we’ll build something valuabl[...] 
         </div>
         <div class="text-center" data-aos="fade-up" data-aos-delay="400">
           <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-4 text-3xl">🤝</div>
           <h4 class="text-xl font-semibold mb-2">Personal Support</h4>
-          <p class="text-gray-400 text-sm">You’ll work directly with your designer.<br> From the first chat to your site going live, we stay connected. Get real-time updates, ask questions, and share feedback.</p>
+          <p class="text-gray-400 text-sm">You’ll work directly with your designer.<br> From the first chat to your site going live, we stay connected. Get real-time updates, ask questions, and shar[...] 
         </div>
       </div>
     </div>
@@ -177,7 +178,7 @@
         <div>
           <label class="block text-sm font-medium mb-2">Upload Files (Logo, PDF, Images)</label>
           <input type="file" id="files" accept="image/*,.pdf" multiple 
-                 class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-accent file:text-primary hover:file:bg-yellow-400">
+                 class="w-full px-4 py-3 bg-primary border border-gray-700 rounded-lg file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-accent file:[...]">
           <p class="text-red-400 text-sm mt-1 hidden" id="fileError">Please upload valid image or PDF files.</p>
         </div>
 
@@ -255,7 +256,7 @@
 
       // Final validation
       const isNameValid = validateField(nameInput, nameError, () => nameInput.value.trim() !== '');
-      const isEmailValid = validateField(emailInput, emailError, () => /^\S+@\S+\.\S+$/.test(emailInput.value));
+      const isEmailValid = validateField(emailInput, emailError, () => /^\\S+@\\S+\.\\S+$/.test(emailInput.value));
       const isWhatsAppValid = validateField(whatsappInput, whatsappError, () => /^\+?[0-9]{10,15}$/.test(whatsappInput.value.replace(/\s/g, '')));
       const isBusinessValid = validateField(businessInput, businessError, () => businessInput.value !== '');
 
